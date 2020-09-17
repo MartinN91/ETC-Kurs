@@ -27,7 +27,11 @@ export class SkillsService {
     return this.httpClient.post<Skill>(this.url, skill);
   }
 
-  deleteSkill(skill: Skill): Observable<any> {
-    return this.httpClient.delete(this.url);
+  updateSkill(skill: Skill): Observable<Skill> {
+    return this.httpClient.put<Skill>(`${this.url}/${skill.id}`, skill);
+  }
+
+  deleteSkill(id: number): Observable<any> {
+    return this.httpClient.delete(`${this.url}/${id}`);
   }
 }
