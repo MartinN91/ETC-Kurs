@@ -15,4 +15,12 @@ export class CommentService {
   getComments() {
     return this.http.get<CommentItem[]>(this.url);
   }
+
+  saveComment(cm: CommentItem) {
+    if (cm.id === undefined) {
+      return this.http.post(this.url, cm);
+    } else {
+      return this.http.put(`${this.url}/${cm.id}`, cm);
+    }
+  }
 }

@@ -22,10 +22,14 @@
     </ng-container>
 
     <ng-container *ngIf="!editorEdit">
-      <div *ngFor="let c of comments | async" fxLayout="row" fxLayoutGap="16px">
-        <div>{{ c.title }}</div>
-        <div>{{ c.comment }}</div>
-        <button mat-raised-button (click)="editComment(c)">Edit</button>
+      <div
+        *ngFor="let c of comments | async"
+        fxLayout="row"
+        fxLayoutGap="16px"
+        fxFlexFill
+      >
+        <div fxFlex="5 1 auto">{{ c.title }}</div>
+        <a mat-raised-button (click)="editComment(c)">Edit</a>
       </div>
     </ng-container>
   </mat-card-content>
@@ -36,9 +40,6 @@
       <button mat-raised-button (click)="editorEdit = !editorEdit">
         Cancel
       </button>
-    </ng-container>
-    <ng-container *ngIf="!editorEdit">
-      <button mat-raised-button (click)="editorEdit = !editorEdit">Edit</button>
     </ng-container>
   </mat-card-actions>
 </mat-card>

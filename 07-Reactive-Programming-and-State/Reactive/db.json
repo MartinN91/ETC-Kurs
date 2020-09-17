@@ -33,7 +33,7 @@
       "ID": 3,
       "Text": "Amazon",
       "Date": "2016-11-15T00:00:00",
-      "Amount": 0,
+      "Amount": 22,
       "Paid": false,
       "Expense": false,
       "Remark": false,
@@ -67,16 +67,7 @@
         }
       ]
     },
-    {
-      "ID": 5,
-      "Text": "Inserted by WebApi",
-      "Date": "2016-11-08T11:28:42.9",
-      "Amount": 0,
-      "Paid": false,
-      "Expense": false,
-      "Remark": false,
-      "Details": []
-    },
+
     {
       "ID": 1,
       "Text": "Demo AG",
