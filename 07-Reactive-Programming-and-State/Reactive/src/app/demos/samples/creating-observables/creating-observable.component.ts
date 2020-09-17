@@ -48,29 +48,6 @@ export class CreatingObservableComponent implements OnInit {
     });
   }
 
-  useNewObs() {
-    new Observable((observer) => {
-      let idx = 0;
-      const numbers = [2, 5, 9, 12, 22];
-
-      const getNumber = () => {
-        observer.next(numbers[idx++]);
-
-        if (idx < numbers.length) {
-          setTimeout(getNumber, 250);
-        } else {
-          observer.complete();
-        }
-      };
-
-      getNumber();
-    }).subscribe(
-      (data: number) => console.log('useObsCreate: ', data),
-      this.onErr,
-      this.onComplete
-    );
-  }
-
   useObsFrom() {
     from([2, 5, 9, 12, 22]).subscribe(
       (data: number) => console.log('from(): ', data),

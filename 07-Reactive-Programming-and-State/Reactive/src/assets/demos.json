@@ -4,6 +4,14 @@
     "title": "Creating Observables"
   },
   {
+    "url": "unsubscribe",
+    "title": "Unsubscribing"
+  },
+  {
+    "url": "subsink",
+    "title": "SubSink"
+  },
+  {
     "url": "operators",
     "title": "Observable Operators"
   },
@@ -16,14 +24,6 @@
     "title": "Flex Layout Api"
   },
   {
-    "url": "unsubscribe",
-    "title": "Unsubscribing"
-  },
-  {
-    "url": "subsink",
-    "title": "SubSink"
-  },
-  {
     "url": "streams",
     "title": "Async Pipe"
   },
@@ -34,10 +34,6 @@
   {
     "url": "stateful",
     "title": "Stateful Service"
-  },
-  {
-    "url": "simpleds",
-    "title": "Two Subscribers"
   },
   { "url": "evtbus", "title": "Event Bus" },
   {
