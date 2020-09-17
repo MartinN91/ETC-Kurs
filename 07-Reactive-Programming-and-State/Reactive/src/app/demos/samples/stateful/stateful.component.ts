@@ -11,7 +11,7 @@ import { Voucher } from '../model';
 })
 export class StatefulComponent implements OnInit {
   dataSource: MatTableDataSource<Voucher>;
-  displayedColumns = ['ID', 'Text', 'Date', 'Amount'];
+  displayedColumns = ['ID', 'Text', 'Date', 'Amount', 'deleteItem'];
 
   constructor(private vs: StatefulVoucherService) {}
 
@@ -29,5 +29,9 @@ export class StatefulComponent implements OnInit {
 
   editItem(row) {
     console.log('Edit Row', row);
+  }
+
+  deleteVoucher(v: Voucher) {
+    this.vs.deleteVoucher(v.ID);
   }
 }
