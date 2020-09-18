@@ -1,16 +1,18 @@
 import { FoodComponent } from './food.component';
 import { FoodItem } from '../model/food-item.model';
 import { of } from 'rxjs';
+import { FoodService } from '../foodService/food.service';
 
 describe('FoodComponent:', () => {
   let comp: FoodComponent;
+  let mockFS: FoodService;
+
   const foodData: FoodItem[] = [
     { name: 'Pad Thai', rating: 5 },
     { name: 'Butter Chicken', rating: 5 },
     { name: 'Cannelloni', rating: 4 },
     { name: 'Cordon Bleu', rating: 2 },
   ];
-  let mockFS;
 
   const serviceResult = [
     { name: 'Pad Thai', rating: 5 },

@@ -1,19 +1,18 @@
 import { RatingPipe } from './rating.pipe';
 
-// var p;
+let p;
 
 beforeEach(() => {
-  //   p = new RatingPipe();
+  p = new RatingPipe();
 });
 
 describe('RatingPipe', () => {
   it('creates an instance', () => {
-    const p = new RatingPipe();
     expect(p).toBeTruthy();
   });
 
+  // tslint:disable-next-line: quotemark
   it("returns 'ausgezeichnet' when 2 is passed", () => {
-    const p = new RatingPipe();
     expect(p.transform(2)).toEqual('ausgezeichnet');
   });
 

@@ -1,6 +1,6 @@
 # Component with no Service Injection
 
-Navigate to folder \demos\shallow-integration
+Navigate to folder \demos\integration-tests
 
 Investigate `shallow-integration.component.html`. Notice the `app-food-row` component and instpect it
 
