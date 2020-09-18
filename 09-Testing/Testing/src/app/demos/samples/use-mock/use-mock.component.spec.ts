@@ -19,8 +19,8 @@ class MockAuthService {
 describe('UseMockComponent', () => {
   let component: UseMockComponent;
 
-  let mockservice = new MockAuthService();
-    
+  const mockservice = new MockAuthService();
+
   beforeEach(() => {
     component = new UseMockComponent(mockservice);
   });
