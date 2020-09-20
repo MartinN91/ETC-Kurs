@@ -64,6 +64,8 @@ ng update  @angular/core @angular/cli [--allow-dirty] [@angular/material ...]
 
 [Node.js](https://nodejs.org)
 
+[Node Version Manager for Windows - nvm](https://github.com/coreybutler/nvm-windows)
+
 [Babel JS](https://babeljs.io/)
 
 [WebPack](https://webpack.js.org/)
