@@ -15,7 +15,7 @@ npm i -g @angular/cli
 Run an Angular project on a custom port
 
 ```
-ng serve --port 4300
+ng s --port 4300
 ```
 
 ## Debugging in VS Code
