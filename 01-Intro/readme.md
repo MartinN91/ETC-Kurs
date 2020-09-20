@@ -83,5 +83,5 @@ Edit `launch.json` in folder `.vscode` & make sure you execute `ng serve` bevor 
 ## Update Angular
 
 ```typescript
-ng update  @angular/core @angular/cli [--allow-dirty] [@angular/material ...]
+ng update @angular/cli [--allow-dirty] [@angular/material ...]
 ```
