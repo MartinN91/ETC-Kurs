@@ -2,10 +2,12 @@
 
 [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)
 
-Tired of TypeScript Imports? Try this extension:
-
-[TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-
 [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[Date FNS](https://date-fns.org/)
+[Date /Time Manipulation - Date fns](https://date-fns.org/)
+
+[Date fns timezone](https://github.com/prantlf/date-fns-timezone#readme)
+
+## Extensions
+
+[TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)

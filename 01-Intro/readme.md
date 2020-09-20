@@ -1,10 +1,30 @@
-# Angular Basics
+# Angular Introduction
 
-[Node Version Manager for Windows](https://github.com/coreybutler/nvm-windows)
+[Angular Documentation](https://angular.io/docs)
 
-[Angular CLI Reference](https://angular.io/cli)
+[Frequently used Angular Modules](https://angular.io/guide/frequent-ngmodules)
 
 [Angular Augury](https://augury.rangle.io/)
+
+## Extensions
+
+[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+
+[Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+
+## Node Basics
+
+[Node.js](https://nodejs.org)
+
+[Node Version Manager for Windows - nvm](https://github.com/coreybutler/nvm-windows)
+
+[Babel JS](https://babeljs.io/)
+
+[WebPack](https://webpack.js.org/)
+
+## Using Angular CLI
+
+[Angular CLI Reference](https://angular.io/cli)
 
 Install Angular CLI
 
@@ -15,7 +35,13 @@ npm i -g @angular/cli
 Run an Angular project on a custom port
 
 ```
-ng s --port 4300
+ng s -o --port 4300
+```
+
+Check creation of a new Demo using dry-run
+
+```
+ng g c demos/samples/mydemo -d
 ```
 
 ## Debugging in VS Code
@@ -59,13 +85,3 @@ Edit `launch.json` in folder `.vscode` & make sure you execute `ng serve` bevor 
 ```typescript
 ng update  @angular/core @angular/cli [--allow-dirty] [@angular/material ...]
 ```
-
-# Node Basics
-
-[Node.js](https://nodejs.org)
-
-[Node Version Manager for Windows - nvm](https://github.com/coreybutler/nvm-windows)
-
-[Babel JS](https://babeljs.io/)
-
-[WebPack](https://webpack.js.org/)
