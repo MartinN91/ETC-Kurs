@@ -6,11 +6,12 @@
 .sidebar {
   background-color: lightgrey;
   width: 20vw;
+  min-width: 250px;
 }
 
 .main {
   width: 80vw;
-  margin: 2rem;
+  margin: 0 2rem;
 }
 
 .mainrow {

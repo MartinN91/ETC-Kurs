@@ -6,6 +6,15 @@ table {
   width: 100%;
 }
 
-mat-form-field {
-  width: 80%;
+// .mat-column-COLNAME
+.mat-column-name {
+  width: 65%;
+}
+
+mat-card-content {
+  padding-top: 2rem;
+}
+
+mat-icon {
+  margin-right: 10px;
 }
