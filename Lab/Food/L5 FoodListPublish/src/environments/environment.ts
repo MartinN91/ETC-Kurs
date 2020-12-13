@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  authEnabled: true,
+  authEnabled: false,
   firebaseConfig: {
     apiKey: "AIzaSyD8UoiKUqPB_NUJI1LESJpOa2UnrKNY-pc",
     authDomain: "ngdemoapp.firebaseapp.com",
@@ -9,6 +9,6 @@ export const environment = {
     storageBucket: "ngdemoapp.appspot.com",
     messagingSenderId: "730215427488",
     appId: "1:730215427488:web:001d99d407deae1c2488c5",
-    measurementId: "G-JR63RDH78R"
-  }
+    measurementId: "G-JR63RDH78R",
+  },
 };
