@@ -87,7 +87,7 @@ export class TypesComponent implements OnInit {
     const category = 'music';
 
     // string concatenation
-    const url = 'http://server/' + category + '/' + productID;
+    const url = `http://server/${category}/${productID}`;
     console.log(url);
 
     // Template Literals using Backticks

@@ -1,0 +1,22 @@
+.navigation{
+    background-color: #FFC8A2;
+    width: 100vw;
+    height: 10vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+
+    .sidebar{
+        background-color: #8FCACA;
+        width: 200px;
+    }
+
+    .main{
+        background-color: #D4F0F0;
+        width: calc( 100vw - 200px);
+        padding: 1rem;
+    }   
+}
