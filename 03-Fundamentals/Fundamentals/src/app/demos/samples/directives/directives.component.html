@@ -9,7 +9,7 @@
   <div
     [ngStyle]="{
       'margin-top': '10px',
-      color: 'white',
+      'color': 'white',
       'background-color': bgcolor
     }"
   >
@@ -31,13 +31,21 @@
   <mat-card-header>
     <mat-card-title>Prop Binding</mat-card-title>
   </mat-card-header>
-  <a mat-raised-button (click)="toggleInput()">Click to enable the input</a
+  <a mat-raised-button (click)="toggleInput()">
+    {{ isDisabled ==true ? 
+      'Click to enable the input' : 
+      'Click to disable the input'}}
+      </a
   ><br />
   <a mat-raised-button (click)="hideInput()">Click to hide the input</a>
-  <input
+  
+  <mat-form-field>
+    <input 
+    matInput
     type="text"
     placeholder="Enter name"
     [disabled]="isDisabled"
     [hidden]="isHidden"
   />
+  </mat-form-field>
 </mat-card>

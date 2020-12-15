@@ -11,4 +11,7 @@ export class TemplateComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  getMsg(){
+  return 'this is the msg';}
 }
